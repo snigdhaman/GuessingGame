@@ -12,6 +12,9 @@
 		8B729BA21C1DAE1C009A0193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B729BA01C1DAE1C009A0193 /* Main.storyboard */; };
 		8B729BA41C1DAE1C009A0193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B729BA31C1DAE1C009A0193 /* Assets.xcassets */; };
 		8B729BA71C1DAE1C009A0193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B729BA51C1DAE1C009A0193 /* LaunchScreen.storyboard */; };
+		8B729BAF1C1DB10C009A0193 /* background_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8B729BAE1C1DB10C009A0193 /* background_2.jpg */; };
+		8B729BB11C1DB208009A0193 /* 671px-Two_red_dice_01.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B729BB01C1DB208009A0193 /* 671px-Two_red_dice_01.svg.png */; };
+		8B729BB31C1DBB92009A0193 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B729BB21C1DBB92009A0193 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		8B729BA31C1DAE1C009A0193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B729BA61C1DAE1C009A0193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B729BA81C1DAE1C009A0193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B729BAE1C1DB10C009A0193 /* background_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_2.jpg; sourceTree = "<group>"; };
+		8B729BB01C1DB208009A0193 /* 671px-Two_red_dice_01.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "671px-Two_red_dice_01.svg.png"; sourceTree = "<group>"; };
+		8B729BB21C1DBB92009A0193 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,12 @@
 				8B729B9C1C1DAE1C009A0193 /* AppDelegate.swift */,
 				8B729B9E1C1DAE1C009A0193 /* ViewController.swift */,
 				8B729BA01C1DAE1C009A0193 /* Main.storyboard */,
+				8B729BAE1C1DB10C009A0193 /* background_2.jpg */,
+				8B729BB01C1DB208009A0193 /* 671px-Two_red_dice_01.svg.png */,
 				8B729BA31C1DAE1C009A0193 /* Assets.xcassets */,
 				8B729BA51C1DAE1C009A0193 /* LaunchScreen.storyboard */,
 				8B729BA81C1DAE1C009A0193 /* Info.plist */,
+				8B729BB21C1DBB92009A0193 /* Images.xcassets */,
 			);
 			path = GuessingGame;
 			sourceTree = "<group>";
@@ -123,7 +132,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B729BAF1C1DB10C009A0193 /* background_2.jpg in Resources */,
+				8B729BB11C1DB208009A0193 /* 671px-Two_red_dice_01.svg.png in Resources */,
 				8B729BA71C1DAE1C009A0193 /* LaunchScreen.storyboard in Resources */,
+				8B729BB31C1DBB92009A0193 /* Images.xcassets in Resources */,
 				8B729BA41C1DAE1C009A0193 /* Assets.xcassets in Resources */,
 				8B729BA21C1DAE1C009A0193 /* Main.storyboard in Resources */,
 			);
@@ -248,6 +260,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = GuessingGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Chatterjee.Snigdhaman.GuessingGame;
@@ -259,6 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = GuessingGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Chatterjee.Snigdhaman.GuessingGame;
